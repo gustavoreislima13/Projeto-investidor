@@ -12,7 +12,6 @@ input {
 }
 
 .container {
-  margin: 1px;
   position: relative;
   width: 100%;
   background-color: #fff;
@@ -135,7 +134,7 @@ form.sign-in-form {
 
 .btn {
   width: 150px;
-  background-color: #000000;
+  background-color: #5995fd;
   border: none;
   outline: none;
   height: 49px;
@@ -149,7 +148,7 @@ form.sign-in-form {
 }
 
 .btn:hover {
-  background-color: #000000;
+  background-color: #4d84e2;
 }
 .panels-container {
   position: absolute;
@@ -169,7 +168,7 @@ form.sign-in-form {
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  background-image: linear-gradient(-45deg, #000000 0%, #000000 100%);
+  background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
   transition: 1.8s ease-in-out;
   border-radius: 50%;
   z-index: 6;
@@ -179,6 +178,7 @@ form.sign-in-form {
   width: 100%;
   transition: transform 1.1s ease-in-out;
   transition-delay: 0.4s;
+  
 }
 
 .panel {
@@ -225,6 +225,8 @@ form.sign-in-form {
   height: 41px;
   font-weight: 600;
   font-size: 0.8rem;
+ 
+
 }
 
 .right-panel .image,
@@ -399,4 +401,116 @@ form.sign-in-form {
     left: 50%;
   }
 }
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+  z-index: 999; /* Para garantir que o cabeçalho fique acima de outros elementos */
+}
+      
+      header nav {
+        display: flex;
+        align-items: center;
+      }
+
+      header img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 24px;
+        color: #33333300;
+      }
+
+      header ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+
+      header ul li {
+        margin: 0 10px;
+      }
+
+      header ul li a {
+        text-decoration: none;
+        color: #33333300;
+        font-weight: bold;
+      }
+
+      header ul li a:hover {
+        color: #007bff;
+      }
+
+       body {
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #f8f9fa00;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+      }
+
+      header nav {
+        display: flex;
+        align-items: center;
+      }
+
+      header img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 24px;
+        color: #333;
+      }
+
+      header ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+
+      header ul li {
+        margin: 0 10px;
+      }
+
+      header ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+
+      header ul li a:hover {
+        color: #007bff;
+      }
+
+      /* Estilos para o cabeçalho */
+
+
+
+
+
 
