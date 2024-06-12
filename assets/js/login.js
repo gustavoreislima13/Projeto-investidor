@@ -16,7 +16,19 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
   const password = document.getElementById('password').value;
 
   if (email === 'reisanselmo7@gmail.com' && password === '123456') {
-    window.location.href = 'http://localhost/loja/index.php/produtos';
+    window.location.href = 'http://localhost/mapos/';
+  } else {
+    alert('Invalid email or password.');
+  }
+});
+
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  const email = document.getElementById('email').value;
+  const password = document.getElementById('password').value;
+
+  if (email === 'cliente@gmail.com' && password === '123456') {
+    window.location.href = 'http://localhost/mapos/index.php/mine/painel';
   } else {
     alert('Invalid email or password.');
   }
